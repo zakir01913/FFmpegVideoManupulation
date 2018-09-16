@@ -62,7 +62,7 @@ public class MergeVideos extends BaseUseCase<VideoFile, MergeVideos.Request, Mer
         @Override
         public void onProgress(String message)
         {
-            //Log.d(TAG,"onProgress - "+message);
+            Log.d(TAG,"onProgress - "+message);
 
         }
 

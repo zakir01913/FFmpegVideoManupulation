@@ -11,7 +11,7 @@ import java.io.IOException;
 public final class AppStorageDirUtils {
 
     public static final String APP_STORAGE_ROOT_DIR = Environment.getExternalStorageDirectory() + "/FFmpegVideoManupulation/";
-    public static final String APP_VIDEO_STORAGE_DIR = APP_STORAGE_ROOT_DIR + "6";
+    public static final String APP_VIDEO_STORAGE_DIR = APP_STORAGE_ROOT_DIR + "Video/";
     public static final String APP_VIDEO_FRAME_STORAGE_DIR = APP_STORAGE_ROOT_DIR + "Frame/";
 
     public final static String[] fileNames = {
